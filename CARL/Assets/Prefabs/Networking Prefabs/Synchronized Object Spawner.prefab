@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8966936525847665990
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8966936525847665989}
+  - component: {fileID: 8966936525847665988}
+  m_Layer: 0
+  m_Name: Synchronized Object Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8966936525847665989
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8966936525847665990}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.1, z: 0.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8966936525847665988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8966936525847665990}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3dd68ce37a5fea45af2777e646b3737, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  origin: {fileID: 0}
+  objectPrefabs:
+  - {fileID: 230201794215164021, guid: 2568a55af77ec2b4b983ede47a549e49, type: 3}
+  - {fileID: 4385636465247425314, guid: cfaade8498aba1b46a266bab879c5725, type: 3}
+  - {fileID: 5924372275544138341, guid: 83d702376035206469f0db88e811de13, type: 3}
+  - {fileID: 5716555718456482542, guid: 455f6be7c1d766640bd923065557401d, type: 3}
+  - {fileID: 2169309040852575450, guid: c745b13b62312bd4a9ca59e14605f3ef, type: 3}
+  - {fileID: 2867791902078827457, guid: 2ddda515325a33f4cbbd619306ee3d1f, type: 3}
+  - {fileID: 7326695937802250161, guid: 956aa75e6cfba17448c7edb8722c27d0, type: 3}
+  - {fileID: 4215040023582571536, guid: 6cd093680dac7b643900c7c66d31338a, type: 3}
+  - {fileID: 8506215898688880105, guid: 4c6e4d8edb3315c45964f9eb5d477380, type: 3}
+  - {fileID: 4539452682393708158, guid: b96344e1653fd2545bc375869f3ff16f, type: 3}
+  - {fileID: 2646971037273888546, guid: 6eb755dcb2d94a442a389970f865231d, type: 3}
+  - {fileID: 556863157770251082, guid: e287e4ab5b965e148adcebc8ede1ed5f, type: 3}
+  prefabPath: Assets/SynchronizedPrefabs
+  networkManager: {fileID: 0}

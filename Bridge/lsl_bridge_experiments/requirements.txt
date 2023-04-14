@@ -1,0 +1,5 @@
+numpy==1.16.3
+Pykka==2.0.2
+pylsl==1.13.6
+appJar==0.94.0
+dataclasses==0.7

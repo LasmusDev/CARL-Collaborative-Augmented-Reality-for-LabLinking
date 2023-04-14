@@ -1,0 +1,2 @@
+HoloLens 2 USB Kabeladresse: fe80::89f2:c5f:e3fd:e8d6%16
+HoloLens 2 Wlan "Hololens" Adresse:fe80::7426:d02:5c2f:94ea%14 //10.101.1.174

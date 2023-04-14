@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &6445018312359457939
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2124895142669610733, guid: 956aa75e6cfba17448c7edb8722c27d0, type: 3}
+      propertyPath: goalTag
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2924116350330566682, guid: 956aa75e6cfba17448c7edb8722c27d0, type: 3}
+      propertyPath: goalTag
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3165737450397912060, guid: 956aa75e6cfba17448c7edb8722c27d0, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9b4b766aaf01f6a4385bfdf793218dec, type: 2}
+    - target: {fileID: 3262138198134138040, guid: 956aa75e6cfba17448c7edb8722c27d0, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 951099334
+      objectReference: {fileID: 0}
+    - target: {fileID: 4571943240664016294, guid: 956aa75e6cfba17448c7edb8722c27d0, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 153072719431587931, guid: 2a9f29242356b6e4b8c1ff194f5293b7, type: 3}
+    - target: {fileID: 6279858386386888443, guid: 956aa75e6cfba17448c7edb8722c27d0, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 8022894949230615425, guid: 2a9f29242356b6e4b8c1ff194f5293b7, type: 3}
+    - target: {fileID: 7326695937802250161, guid: 956aa75e6cfba17448c7edb8722c27d0, type: 3}
+      propertyPath: m_Name
+      value: Synchronized Wine_Bottle
+      objectReference: {fileID: 0}
+    - target: {fileID: 7326695937802250162, guid: 956aa75e6cfba17448c7edb8722c27d0, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 951099334
+      objectReference: {fileID: 0}
+    - target: {fileID: 7326695937802250163, guid: 956aa75e6cfba17448c7edb8722c27d0, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7326695937802250163, guid: 956aa75e6cfba17448c7edb8722c27d0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7326695937802250163, guid: 956aa75e6cfba17448c7edb8722c27d0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7326695937802250163, guid: 956aa75e6cfba17448c7edb8722c27d0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7326695937802250163, guid: 956aa75e6cfba17448c7edb8722c27d0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7326695937802250163, guid: 956aa75e6cfba17448c7edb8722c27d0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7326695937802250163, guid: 956aa75e6cfba17448c7edb8722c27d0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7326695937802250163, guid: 956aa75e6cfba17448c7edb8722c27d0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7326695937802250163, guid: 956aa75e6cfba17448c7edb8722c27d0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7326695937802250163, guid: 956aa75e6cfba17448c7edb8722c27d0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7326695937802250163, guid: 956aa75e6cfba17448c7edb8722c27d0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7587283248506915612, guid: 956aa75e6cfba17448c7edb8722c27d0, type: 3}
+      propertyPath: synchObjectName
+      value: Bottle
+      objectReference: {fileID: 0}
+    - target: {fileID: 7587283248506915612, guid: 956aa75e6cfba17448c7edb8722c27d0, type: 3}
+      propertyPath: synchObjectGoalTag
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7587283248506915612, guid: 956aa75e6cfba17448c7edb8722c27d0, type: 3}
+      propertyPath: rotationPrecisionInDegrees
+      value: 5
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 956aa75e6cfba17448c7edb8722c27d0, type: 3}

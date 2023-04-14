@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>560</x>
+      <y>60</y>
+      <w>430</w>
+      <h>740</h>
+    </coordinates>
+    <panel_attributes>Server
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1070</x>
+      <y>60</y>
+      <w>430</w>
+      <h>740</h>
+    </coordinates>
+    <panel_attributes>Client B 
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>60</x>
+      <y>60</y>
+      <w>430</w>
+      <h>740</h>
+    </coordinates>
+    <panel_attributes>Client A (Caller)
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>70</x>
+      <y>100</y>
+      <w>260</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Synchronized Object
+--
+Changes tracking State/
+passes update treshold
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>70</x>
+      <y>230</y>
+      <w>260</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>Synchronized Object
+Manager
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>180</x>
+      <y>160</y>
+      <w>80</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;
+Notifies</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>320</x>
+      <y>240</y>
+      <w>330</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;
+Sends Network Message</panel_attributes>
+    <additional_attributes>10.0;20.0;310.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1150</x>
+      <y>230</y>
+      <w>260</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Synchronized Object
+Manager
+--
+Reads network Message
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>880</x>
+      <y>240</y>
+      <w>290</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;
+Sends Network Message</panel_attributes>
+    <additional_attributes>10.0;20.0;270.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>630</x>
+      <y>370</y>
+      <w>260</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Synchronized Object
+
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1150</x>
+      <y>360</y>
+      <w>260</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Synchronized Object
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>630</x>
+      <y>230</y>
+      <w>260</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Synchronized Object
+Manager
+--
+Reads network Message
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1260</x>
+      <y>290</y>
+      <w>80</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;
+Updates</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>740</x>
+      <y>290</y>
+      <w>80</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;
+Updates</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;80.0</additional_attributes>
+  </element>
+</diagram>

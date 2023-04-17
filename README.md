@@ -1,2 +1,0 @@
-# LabLinking HoloLenses
-

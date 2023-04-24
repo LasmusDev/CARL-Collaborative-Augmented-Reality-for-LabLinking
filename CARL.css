@@ -427,6 +427,12 @@
   padding: 0;
 }
 
+.u-section-4 .u-btn-5 {
+  background-image: none;
+  font-size: 1.125rem;
+  padding: 0;
+}
+
 @media (max-width: 767px) {
   .u-section-4 .u-container-layout-1 {
     padding-left: 10px;

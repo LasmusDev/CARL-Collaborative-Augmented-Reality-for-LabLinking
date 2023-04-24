@@ -339,7 +339,8 @@
 .u-section-4 .u-tabs-1 {
   min-height: 408px;
   height: auto;
-  margin: 60px auto 60px 0;
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
 
 .u-section-4 .u-tab-link-1 {
@@ -410,7 +411,7 @@
 }
 
 .u-section-4 .u-container-layout-3 {
-  padding: 30px;
+  padding: 29px 27px;
 }
 
 .u-section-4 .u-text-3 {
@@ -424,11 +425,10 @@
   padding: 0;
 }
 
-@media (max-width: 1199px) {
-  .u-section-4 .u-tabs-1 {
-    margin-right: initial;
-    margin-left: initial;
-  }
+.u-section-4 .u-btn-4 {
+  background-image: none;
+  font-size: 1.125rem;
+  padding: 0;
 }
 
 @media (max-width: 767px) {
